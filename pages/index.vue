@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center flex-col">
     <div class="mx-auto rounded shadow-md p-4">
-      <h1 class="text-4xl">Vuejs and GraphQL</h1>
+      <h1 class="text-4xl">Post something</h1>
     </div>
 
     <div class="block mt-4">
