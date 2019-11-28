@@ -1,0 +1,8 @@
+mutation delete_post($id: Int!) {
+  delete_post(where: { id: { _eq: $id } }) {
+    returning {
+      id
+      title
+    }
+  }
+}

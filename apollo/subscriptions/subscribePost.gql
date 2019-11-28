@@ -1,0 +1,6 @@
+subscription {
+  post(order_by: { created_at: desc }) {
+    id
+    title
+  }
+}

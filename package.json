@@ -1,0 +1,21 @@
+{
+  "name": "vuejs-graphql-course-sample-project",
+  "version": "1.0.0",
+  "description": "Vue.js project using Nuxt, GraphQL and Hasura.",
+  "author": "Taras Frank",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc18",
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}

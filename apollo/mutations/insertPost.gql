@@ -1,0 +1,8 @@
+mutation insert_post($objects: [post_insert_input!]!) {
+  insert_post(objects: $objects) {
+    returning {
+      id
+      title
+    }
+  }
+}
