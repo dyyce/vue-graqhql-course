@@ -11,7 +11,6 @@
         @keydown.enter="_handleEnterPressed"
       />
 
-      <!-- <div > -->
       <transition-group
         name="list"
         class="results flex flex-col items-center"
@@ -25,7 +24,6 @@
           >{{ post.title }}</span
         >
       </transition-group>
-      <!-- </div> -->
     </div>
   </div>
 </template>
